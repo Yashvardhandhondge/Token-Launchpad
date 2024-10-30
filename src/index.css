@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Global overrides for WalletMultiButton
+.wallet-adapter-button {
+  @apply mt-2  mr-auto bg-purple-500 text-purple-50 w-36 px-4 py-2 rounded hover:bg-blue-600 transition duration-300 ml-[1300px] ;
+}
