@@ -6,7 +6,7 @@ import { WalletConnectButton, WalletModalProvider, WalletDisconnectButton, Walle
 import '@solana/wallet-adapter-react-ui/styles.css';
 import { TokenLaunch } from "./Component/TokenCreation";
 import { useMemo, useState } from "react";
-import Text from "./Component/text";
+
 function App() {
   const [token, setToken] = useState(null);
   const network = WalletAdapterNetwork.Devnet; 
@@ -23,7 +23,7 @@ function App() {
         <WalletDisconnectButton />
         </div>
         <TokenLaunch/>
-        <Text/>
+        
         </WalletModalProvider>
         </WalletProvider>
     </ConnectionProvider>
